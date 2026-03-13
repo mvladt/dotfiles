@@ -1,4 +1,4 @@
 alias cat='batcat'
 alias ll='ls -alF'
 alias l='ls -lF'
-alias gl='git l'
+
