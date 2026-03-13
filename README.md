@@ -26,6 +26,6 @@ echo 'source ~/dotfiles/.myrc' >> ~/.zshrc
 ### Пакеты
 
 ```bash
-bash ~/dotfiles/apt-install.sh
-bash ~/dotfiles/npm-install.sh
+bash ~/dotfiles/1-apt-install.sh
+bash ~/dotfiles/2-npm-install.sh
 ```
