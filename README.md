@@ -27,4 +27,5 @@ echo 'source ~/dotfiles/.myrc' >> ~/.zshrc
 
 ```bash
 bash ~/dotfiles/apt-install.sh
+bash ~/dotfiles/npm-install.sh
 ```
