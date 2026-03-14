@@ -3,4 +3,4 @@
 
 set -e
 
-brew install bat git neovim tree node
+brew install bat git neovim tree node tmux

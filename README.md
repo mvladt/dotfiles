@@ -25,7 +25,14 @@ echo 'source ~/dotfiles/.myrc' >> ~/.zshrc
 
 ### Пакеты
 
+**Linux (apt):**
 ```bash
 bash ~/dotfiles/1-apt-install.sh
+bash ~/dotfiles/2-npm-install.sh
+```
+
+**macOS (brew):**
+```bash
+bash ~/dotfiles/1-brew-install.sh
 bash ~/dotfiles/2-npm-install.sh
 ```
