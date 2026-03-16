@@ -6,29 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Dotfiles для быстрой настройки новых машин: конфиги Claude Code, shell-алиасы и скрипты установки пакетов.
 
-## Установка на новой машине
-
-```bash
-# Клонирование
-git clone git@github.com:mvladt/dotfiles.git ~/dotfiles
-
-# Claude Code (симлинки)
-ln -sf ~/dotfiles/.claude/settings.json ~/.claude/settings.json
-ln -sf ~/dotfiles/.claude/skills ~/.claude/skills
-ln -sf ~/dotfiles/.claude/CLAUDE.md ~/.claude/CLAUDE.md
-
-# Shell алиасы
-echo 'source ~/dotfiles/.myrc' >> ~/.bashrc   # bash
-echo 'source ~/dotfiles/.myrc' >> ~/.zshrc    # zsh
-
-# Пакеты (порядок важен: сначала системный менеджер, потом npm)
-# Linux:
-bash ~/dotfiles/1-apt-install.sh && bash ~/dotfiles/2-npm-install.sh
-# macOS:
-bash ~/dotfiles/1-brew-install.sh && bash ~/dotfiles/2-npm-install.sh
-```
-
 ## Структура
+
+Инструкции по установке — в `README.md`.
 
 - `.claude/settings.json` — настройки Claude Code: язык (Russian), автообновление отключено, разрешения инструментов
 - `.claude/CLAUDE.md` — глобальные правила для Claude Code (симлинк на `~/.claude/CLAUDE.md`)
