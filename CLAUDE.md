@@ -15,6 +15,7 @@ git clone git@github.com:mvladt/dotfiles.git ~/dotfiles
 # Claude Code (симлинки)
 ln -sf ~/dotfiles/.claude/settings.json ~/.claude/settings.json
 ln -sf ~/dotfiles/.claude/skills ~/.claude/skills
+ln -sf ~/dotfiles/.claude/CLAUDE.md ~/.claude/CLAUDE.md
 
 # Shell алиасы
 echo 'source ~/dotfiles/.myrc' >> ~/.bashrc   # bash
@@ -30,6 +31,7 @@ bash ~/dotfiles/1-brew-install.sh && bash ~/dotfiles/2-npm-install.sh
 ## Структура
 
 - `.claude/settings.json` — настройки Claude Code: язык (Russian), автообновление отключено, разрешения инструментов
+- `.claude/CLAUDE.md` — глобальные правила для Claude Code (симлинк на `~/.claude/CLAUDE.md`)
 - `.claude/skills/` — пользовательские skills для Claude Code (`commit`, `nodejs-tests`, `nodejs-e2e-tests`)
 - `.myrc` — shell-алиасы (`cat` → `batcat`, `ll`, `l`)
 - `1-apt-install.sh` — установка apt-пакетов: bat, git, neovim, tree, nodejs (через NodeSource LTS), tmux

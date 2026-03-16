@@ -13,6 +13,7 @@ git clone git@github.com:mvladt/dotfiles.git ~/dotfiles
 ```bash
 ln -sf ~/dotfiles/.claude/settings.json ~/.claude/settings.json
 ln -sf ~/dotfiles/.claude/skills ~/.claude/skills
+ln -sf ~/dotfiles/.claude/CLAUDE.md ~/.claude/CLAUDE.md
 ```
 
 ### Алиасы (.myrc)
